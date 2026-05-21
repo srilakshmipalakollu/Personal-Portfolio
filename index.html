@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <h2 class="logo">Sri.</h2>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="theme-toggle">
+            <i class="fas fa-moon"></i>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Hi, I'm <span>Sri Lakshmi</span></h1>
+            <p>CSE Student | Aspiring Full Stack Developer</p>
+            <div class="button-group">
+
+                <a href="#projects">
+                    <button>View My Work</button>
+                </a>
+
+                <a href="#contact">
+                    <button>Contact Me</button>
+                </a>
+
+            </div>
+            <div class="social-icons">
+                <a href="https://github.com/srilakshmipalakollu" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/srilakshmipalakollu/" target="_blank"><i
+                        class="fab fa-linkedin"></i></a>
+                <a href="mailto:srilakshmipalakollu@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="./images/profile.png" alt="profile">
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="about-image">
+            <img src="./images/Mehhh.jpeg" alt="UserProfile">
+        </div>
+
+        <div class="about-content">
+            <h2>About Me</h2>
+            <p>
+                I am a Computer Science undergraduate (3rd Year) at MVGR College of Engineering with a strong focus on
+                software development and problem solving.
+
+                I have hands-on experience in full stack development using HTML, CSS, JavaScript, Node.js, and Express,
+                along with a solid foundation in programming languages such as Java, Python, C, and C++. I am proficient
+                in core computer science concepts including Data Structures and DBMS, and have practical experience
+                working with MySQL.
+
+                As part of my learning journey, I completed a Java Full Stack internship where I worked with Spring
+                Boot, Hibernate, and Git, gaining exposure to backend development and real-world application
+                architecture.
+
+                I am also exploring Machine Learning and building an understanding of how data-driven systems can be
+                applied to solve practical problems.
+
+                I am currently focused on improving my problem-solving skills, strengthening my development
+                fundamentals, and building projects that reflect real-world use cases. I am seeking opportunities where
+                I can contribute, learn, and grow as a software developer.
+            </p>
+
+            <p>
+                Currently focusing on DSA and full-stack development.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <h2>My Skills</h2>
+
+        <div class="skills-grid">
+            <div class="skill-card">
+                <i class="fab fa-html5"></i>
+                <p>HTML</p>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-css3-alt"></i>
+                <p>CSS</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fab fa-js"></i>
+                <p>JavaScript</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fab fa-node-js"></i>
+                <p>Node.js</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fas fa-database"></i>
+                <p>MongoDB</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fab fa-github"></i>
+                <p>GitHub</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-code"></i>
+                <p>C++</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-code"></i>
+                <p>Java</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+
+        <h2>Projects</h2>
+
+        <div class="projects-container">
+
+            <div class="project-card">
+
+                <img src="./images/ProjectIMG.png" alt="project">
+
+                <div class="project-content">
+                    <h3>FocusForge</h3>
+
+                    <p>
+                        A productivity-focused task management application that helps users
+                        organize daily tasks, track progress, and improve focus efficiently.
+                    </p>
+
+                    <div class="tech-stack">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <div class="project-buttons">
+                        <a href="https://github.com/srilakshmipalakollu/FocusForge">GitHub</a>
+                        <a href="https://focus-forge-sepia.vercel.app/">Live Demo</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <section id="contact" class="contact-section">
+
+        <h2>Contact Me</h2>
+
+        <p class="contact-subtext">
+            Let's connect and build something amazing together.
+        </p>
+
+        <div class="contact-container">
+
+            <div class="contact-info">
+
+                <h3>Get In Touch</h3>
+
+                <p>
+                    Feel free to reach out for collaborations, internships,
+                    or just a friendly chat.
+                </p>
+
+                <div class="contact-links">
+                    <p>📧 srilakshmipalakollu@gmail.com</p>
+                    <p>💼 https://www.linkedin.com/in/srilakshmipalakollu/</p>
+                    <p>💻 https://github.com/srilakshmipalakollu</p>
+                </div>
+
+            </div>
+
+            <form class="contact-form" action="/contact" method="POST">
+
+                <input type="text" name="name" placeholder="Your Name" required>
+
+                <input type="email" name="email" placeholder="Your Email" required>
+
+                <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+
+                <button type="submit">
+                    Send Message
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
