@@ -23,8 +23,7 @@ A modern responsive portfolio website built using HTML, CSS, and JavaScript.
 A productivity-focused task management web application designed to help users organize tasks and improve focus.
 
 ## 🔗 Live Demo
-
-Add your Vercel link here
+https://personal-portfolio-two-pied-89.vercel.app/
 
 ## 👩‍💻 Author
 
